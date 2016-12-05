@@ -1,0 +1,52 @@
+html {
+  font-family: Georgia, serif;
+}
+
+, ::before, *::after {
+  box-sizing: inherit;
+}
+
+header {
+  background-color: #ffe500
+}
+
+h1 {
+  font-family: 'Sigmar One', cursive;
+  text-align: center;
+  color: #cc1465
+}
+
+.nav li {
+  display: inline-block;
+  text-align: center;
+  list-style-type: square;
+  border-radius: 5px
+}
+
+a {
+  display:inline-block;
+  color: #2f2d13
+  text-align: center;
+  list-style-type: square;
+  padding: .6em .5em 0.75em;
+  margin: 0em;
+  border-radius: 5px;
+}
+
+
+h2 {
+  font-family: 'Sigmar One', cursive;
+  text-align: left;
+  color: #cc1465
+}
+
+p {
+    min-width: 20em
+  }
+
+footer {
+  text-align: center;
+  background-color: #ffe500
+  margin: 5px
+  padding: 5px
+  }
